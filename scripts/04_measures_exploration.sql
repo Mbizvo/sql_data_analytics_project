@@ -15,7 +15,7 @@ SELECT SUM(sales_amount) AS total_sales
 FROM gold.fact_sales;
 
 --How many items are sold?
-SELECT SUMWF(quantity) AS total_quantity
+SELECT SUM(quantity) AS total_quantity
 FROM gold.fact_sales;
 
 --What is the selling average price?
