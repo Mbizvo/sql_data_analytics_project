@@ -11,11 +11,11 @@ SQL Functions Used:
 ===============================================================================
 */
 --Find Total Sales
-SELECT Sum(sales_amount) AS total_sales
+SELECT SUM(sales_amount) AS total_sales
 FROM gold.fact_sales;
 
 --How many items are sold?
-SELECT Sum(quantity) AS total_quantity
+SELECT SUMWF(quantity) AS total_quantity
 FROM gold.fact_sales;
 
 --What is the selling average price?
