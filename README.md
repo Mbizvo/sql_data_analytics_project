@@ -64,6 +64,8 @@ sql_data_analytics_project/
 ├── README.md
 └── LICENSE
 ```
+### 🛡️ License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ### About Me
 Hi there! I'm Brendon Mbizvo, a Data Scientist passionate about transforming raw data into actionable insights.
