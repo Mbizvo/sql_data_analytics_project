@@ -21,5 +21,49 @@ The project demonstrates the ability to:
 * Support data-driven business and operational decisions
 
 ### 📂 Repository Structure
+```
+sql_data_analytics_project/
+│
+├── datasets/
+│   └── gold/
+│       ├── dim_customers.csv
+│       ├── dim_products.csv
+│       └── fact_sales.csv
+│
+├── scripts/
+│   ├── 00_setup/
+│   │   └── 00_init_database.sql
+│   │
+│   ├── 01_exploration/
+│   │   ├── 01_database_exploration.sql
+│   │   ├── 02_dimension_exploration.sql
+│   │   └── 03_date_exploration.sql
+│   │
+│   ├── 02_metrics_and_analysis/
+│   │   ├── 04_measures_exploration.sql
+│   │   ├── 05_magnitude_analysis.sql
+│   │   ├── 06_ranking_analysis.sql
+│   │   ├── 07_change_over_time_analysis.sql
+│   │   ├── 08_cumulative_analysis.sql
+│   │   ├── 09_performance_analysis.sql
+│   │   └── 10_part_to_whole.sql
+│   │
+│   ├── 03_segmentation/
+│   │   └── 11_data_segmentation.sql
+│   │
+│   ├── 04_reporting/
+│   │   ├── 12_customer_report.sql
+│   │   └── 13_products_report.sql
+│   │
+│   └── README.md
+│
+├── documentation/
+│   ├── data_model.md
+│   └── analysis_summary.md
+│
+├── README.md
+└── LICENSE
+```
 
-### Author
+### About Me
+Hi there! I'm Brendon Mbizvo, a Data Scientist passionate about transforming raw data into actionable insights.
